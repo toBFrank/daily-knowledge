@@ -1,0 +1,6 @@
+@DailyKnowledge.Api_HostAddress = http://localhost:5118
+
+GET {{DailyKnowledge.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
