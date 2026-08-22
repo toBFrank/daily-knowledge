@@ -8,4 +8,8 @@ public class Article
   public string? FullText { get; set; }
   public string? source_url { get; set; }
   public DateTime CreatedAt { get; set; }
+
+  // Navigation properties
+  public Quiz? Quiz { get; set; }
+
 }
